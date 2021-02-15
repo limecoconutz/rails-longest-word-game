@@ -1,0 +1,21 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400;500&display=swap');
+
+$light-grey: #B9CDDA;
+
+body{
+  height: 100%;
+  background-position: center;
+}
+
+li{
+  display: inline;
+  text-decoration: none;
+  background-color: $light-grey;
+  margin: 15px;
+  padding: 5px;
+  font-family: 'Newsreader', serif;
+  border: solid 2px #586994;
+}
